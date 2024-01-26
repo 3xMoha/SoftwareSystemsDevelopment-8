@@ -1,5 +1,16 @@
-<h1 className="text-center">Andres Mohali's To Do List!</h1>
 function App() {
+    const { Container, Row, Col } = ReactBootstrap;
+    return (
+        <Container>
+            <Row>
+                <Col md={{ offset: 3, span: 6 }}>
+                    <h1 className="text-center">Andres Mohali's ToDo List!!</h1>
+                    <TodoListCard />
+                </Col>
+            </Row>
+        </Container>
+    );
+    
     const { Container, Row, Col } = ReactBootstrap;
     return (
         <Container>

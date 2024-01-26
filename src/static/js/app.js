@@ -1,22 +1,10 @@
 function App() {
     const { Container, Row, Col } = ReactBootstrap;
-
-    return (
-        <Container>
-            <Row className="justify-content-md-center">
-                <Col md={6} className="text-center">
-                    <h1>Hello my name is Mike</h1>
-                    <TodoListCard />
-                </Col>
-            </Row>
-        </Container>
-    );
-    
-    const { Container, Row, Col } = ReactBootstrap;
     return (
         <Container>
             <Row>
                 <Col md={{ offset: 3, span: 6 }}>
+                    <h1>Hello my name is Mike</h1>
                     <TodoListCard />
                 </Col>
             </Row>

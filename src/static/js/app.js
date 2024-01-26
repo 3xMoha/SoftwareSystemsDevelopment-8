@@ -1,7 +1,6 @@
 
 function App() {
     const { Container, Row, Col } = ReactBootstrap;
-
     return (
         <Container>
             <Row>
@@ -13,8 +12,6 @@ function App() {
         </Container>
     );
 }
-    
-    
     
     const { Container, Row, Col } = ReactBootstrap;
     return (
